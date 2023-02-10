@@ -42,3 +42,9 @@ laurea (286)
 
     SELECT COUNT(id) AS `totale dipartimenti` 
     FROM `departments`;
+
+8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+    SELECT COUNT(id) AS `totale inseganti senza numero di telefono` 
+    FROM `teachers` 
+    WHERE `phone` IS NULL;
